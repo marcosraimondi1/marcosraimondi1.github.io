@@ -10,7 +10,7 @@ export default function Navigation() {
       <nav id="sidebar-wrapper">
         <ul className="sidebar-nav">
           <li className="sidebar-brand">
-            <a href="#page-top">Start Bootstrap</a>
+            <a href="#page-top">Marcos Raimondi</a>
           </li>
           <li className="sidebar-nav-item">
             <a href="#page-top">Home</a>

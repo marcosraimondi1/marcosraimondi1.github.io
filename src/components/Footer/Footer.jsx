@@ -10,27 +10,30 @@ export default function Footer() {
             <li className="list-inline-item">
               <a
                 className="social-link rounded-circle text-white mr-3"
-                href="#!"
+                href="mailto:marcosraimondi1@gmail.com?Subject=Something."
               >
-                <i className="icon-social-facebook"></i>
+                <i className="icon-envelope"></i>
               </a>
             </li>
             <li className="list-inline-item">
               <a
                 className="social-link rounded-circle text-white mr-3"
-                href="#!"
+                href="https://www.linkedin.com/in/marcos-raimondi/"
               >
-                <i className="icon-social-twitter"></i>
+                <i className="icon-social-linkedin"></i>
               </a>
             </li>
             <li className="list-inline-item">
-              <a className="social-link rounded-circle text-white" href="#!">
+              <a
+                className="social-link rounded-circle text-white"
+                href="https://github.com/marcosraimondi1"
+              >
                 <i className="icon-social-github"></i>
               </a>
             </li>
           </ul>
           <p className="text-muted small mb-0">
-            Copyright &copy; Your Website 2021
+            Copyright &copy; Marcos Raimondi 2022
           </p>
         </div>
       </footer>
