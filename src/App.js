@@ -1,283 +1,35 @@
 import scripts from "./static/scripts.js";
+import Navigation from "./pages/Navigation/Navigation.jsx";
+import Header from "./pages/Header/Header.jsx";
+import About from "./pages/About/About.jsx";
+import Services from "./pages/Services/Services.jsx";
+import Callout from "./pages/Callout/Callout.jsx";
+import Portfolio from "./pages/Portfolio/Portfolio.jsx";
+import CallToAction from "./pages/CallToAction/CallToAction.jsx";
+import Map from "./pages/Map/Map.jsx";
+import Footer from "./pages/Footer/Footer.jsx";
 
 function App() {
   return (
     <div className="App">
       {/* <!-- Navigation--> */}
-      <a className="menu-toggle rounded" href="#">
-        <i className="fas fa-bars"></i>
-      </a>
-      <nav id="sidebar-wrapper">
-        <ul className="sidebar-nav">
-          <li className="sidebar-brand">
-            <a href="#page-top">Start Bootstrap</a>
-          </li>
-          <li className="sidebar-nav-item">
-            <a href="#page-top">Home</a>
-          </li>
-          <li className="sidebar-nav-item">
-            <a href="#about">About</a>
-          </li>
-          <li className="sidebar-nav-item">
-            <a href="#services">Services</a>
-          </li>
-          <li className="sidebar-nav-item">
-            <a href="#portfolio">Portfolio</a>
-          </li>
-          <li className="sidebar-nav-item">
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
+      <Navigation />
       {/* <!-- Header--> */}
-      <header id="page-top" className="masthead d-flex align-items-center">
-        <div className="container px-4 px-lg-5 text-center">
-          <h1 className="mb-1">Stylish Portfolio</h1>
-          <h3 className="mb-5">
-            <em>A Free Bootstrap Theme by Start Bootstrap</em>
-          </h3>
-          <a className="btn btn-primary btn-xl" href="#about">
-            Find Out More
-          </a>
-        </div>
-      </header>
+      <Header />
       {/* <!-- About--> */}
-      <section className="content-section bg-light" id="about">
-        <div className="container px-4 px-lg-5 text-center">
-          <div className="row gx-4 gx-lg-5 justify-content-center">
-            <div className="col-lg-10">
-              <h2>
-                Stylish Portfolio is the perfect theme for your next project!
-              </h2>
-              <p className="lead mb-5">
-                This theme features a flexible, UX friendly sidebar menu and
-                stock photos from our friends at
-                <a href="https://unsplash.com/">Unsplash</a>!
-              </p>
-              <a className="btn btn-dark btn-xl" href="#services">
-                What We Offer
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+      <About />
       {/* <!-- Services--> */}
-      <section
-        className="content-section bg-primary text-white text-center"
-        id="services"
-      >
-        <div className="container px-4 px-lg-5">
-          <div className="content-section-heading">
-            <h3 className="text-secondary mb-0">Services</h3>
-            <h2 className="mb-5">What We Offer</h2>
-          </div>
-          <div className="row gx-4 gx-lg-5">
-            <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
-              <span className="service-icon rounded-circle mx-auto mb-3">
-                <i className="icon-screen-smartphone"></i>
-              </span>
-              <h4>
-                <strong>Responsive</strong>
-              </h4>
-              <p className="text-faded mb-0">Looks great on any screen size!</p>
-            </div>
-            <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
-              <span className="service-icon rounded-circle mx-auto mb-3">
-                <i className="icon-pencil"></i>
-              </span>
-              <h4>
-                <strong>Redesigned</strong>
-              </h4>
-              <p className="text-faded mb-0">
-                Freshly redesigned for Bootstrap 5.
-              </p>
-            </div>
-            <div className="col-lg-3 col-md-6 mb-5 mb-md-0">
-              <span className="service-icon rounded-circle mx-auto mb-3">
-                <i className="icon-like"></i>
-              </span>
-              <h4>
-                <strong>Favorited</strong>
-              </h4>
-              <p className="text-faded mb-0">
-                Millions of users
-                <i className="fas fa-heart"></i>
-                Start Bootstrap!
-              </p>
-            </div>
-            <div className="col-lg-3 col-md-6">
-              <span className="service-icon rounded-circle mx-auto mb-3">
-                <i className="icon-mustache"></i>
-              </span>
-              <h4>
-                <strong>Question</strong>
-              </h4>
-              <p className="text-faded mb-0">I mustache you a question...</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Services />
       {/* <!-- Callout--> */}
-      <section className="callout">
-        <div className="container px-4 px-lg-5 text-center">
-          <h2 className="mx-auto mb-5">
-            Welcome to
-            <em>your</em>
-            next website!
-          </h2>
-          <a
-            className="btn btn-primary btn-xl"
-            href="https://startbootstrap.com/theme/stylish-portfolio/"
-          >
-            Download Now!
-          </a>
-        </div>
-      </section>
+      <Callout />
       {/* <!-- Portfolio--> */}
-      <section className="content-section" id="portfolio">
-        <div className="container px-4 px-lg-5">
-          <div className="content-section-heading text-center">
-            <h3 className="text-secondary mb-0">Portfolio</h3>
-            <h2 className="mb-5">Recent Projects</h2>
-          </div>
-          <div className="row gx-0">
-            <div className="col-lg-6">
-              <a
-                className="portfolio-item"
-                href="http://agro-crm-project.herokuapp.com"
-              >
-                <div className="caption">
-                  <div className="caption-content">
-                    <div className="h2">Agro CRM</div>
-                    <p className="mb-0">
-                      A Customer Relationship Management app!
-                    </p>
-                  </div>
-                </div>
-                <img
-                  className="img-fluid"
-                  src="assets/img/agro-project.png"
-                  alt="..."
-                  width="700"
-                  height="467"
-                />
-              </a>
-            </div>
-            <div className="col-lg-6">
-              <a
-                className="portfolio-item"
-                href="https://turnosyagenda.herokuapp.com"
-              >
-                <div className="caption">
-                  <div className="caption-content">
-                    <div className="h2">Turnero</div>
-                    <p className="mb-0">Booking services made easy!</p>
-                  </div>
-                </div>
-                <img
-                  className="img-fluid"
-                  src="assets/img/turnero.jpg"
-                  alt="..."
-                  width="700"
-                  height="467"
-                />
-              </a>
-            </div>
-            <div className="col-lg-6">
-              <a className="portfolio-item" href="">
-                <div className="caption">
-                  <div className="caption-content">
-                    <div className="h2">Coming Soon</div>
-                    <p className="mb-0">In process...</p>
-                  </div>
-                </div>
-                <img
-                  className="img-fluid"
-                  src="assets/img/coming-soon.jpg"
-                  alt="..."
-                  width="700"
-                  height="467"
-                />
-              </a>
-            </div>
-            <div className="col-lg-6">
-              <a
-                className="portfolio-item"
-                href="https://github.com/marcosraimondi1"
-              >
-                <div className="caption">
-                  <div className="caption-content">
-                    <div className="h2">GitHub</div>
-                    <p className="mb-0">
-                      Check Out all my projects in my github page!
-                    </p>
-                  </div>
-                </div>
-                <img
-                  className="img-fluid"
-                  src="assets/img/github.png"
-                  alt="..."
-                  width="700"
-                  height="467"
-                />
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Portfolio />
       {/* <!-- Call to Action--> */}
-      <section className="content-section bg-primary text-white">
-        <div className="container px-4 px-lg-5 text-center">
-          <h2 className="mb-4">
-            The buttons below are impossible to resist...
-          </h2>
-          <a className="btn btn-xl btn-light me-4" href="#!">
-            Click Me!
-          </a>
-          <a className="btn btn-xl btn-dark" href="#!">
-            Look at Me!
-          </a>
-        </div>
-      </section>
+      <CallToAction />
       {/* <!-- Map--> */}
-      <div className="map" id="contact">
-        <iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-        <br />
-        <small>
-          <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-        </small>
-      </div>
+      <Map />
       {/* <!-- Footer--> */}
-      <footer className="footer text-center">
-        <div className="container px-4 px-lg-5">
-          <ul className="list-inline mb-5">
-            <li className="list-inline-item">
-              <a
-                className="social-link rounded-circle text-white mr-3"
-                href="#!"
-              >
-                <i className="icon-social-facebook"></i>
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a
-                className="social-link rounded-circle text-white mr-3"
-                href="#!"
-              >
-                <i className="icon-social-twitter"></i>
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a className="social-link rounded-circle text-white" href="#!">
-                <i className="icon-social-github"></i>
-              </a>
-            </li>
-          </ul>
-          <p className="text-muted small mb-0">
-            Copyright &copy; Your Website 2021
-          </p>
-        </div>
-      </footer>
+      <Footer />
       {/* <!-- Scroll to Top Button--> */}
       <a className="scroll-to-top rounded" href="#page-top">
         <i className="fas fa-angle-up"></i>
