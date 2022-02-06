@@ -11,50 +11,46 @@ export default function Services() {
         <div className="container px-4 px-lg-5">
           <div className="content-section-heading">
             <h3 className="text-secondary mb-0">Services</h3>
-            <h2 className="mb-5">What We Offer</h2>
+            <h2 className="mb-5">My Skills</h2>
           </div>
           <div className="row gx-4 gx-lg-5">
             <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
               <span className="service-icon rounded-circle mx-auto mb-3">
-                <i className="icon-screen-smartphone"></i>
+                <i className="fas fa-react"></i>
               </span>
               <h4>
-                <strong>Responsive</strong>
+                <strong>React</strong>
               </h4>
-              <p className="text-faded mb-0">Looks great on any screen size!</p>
+              <p className="text-faded mb-0">Web Development wiht React Js</p>
             </div>
             <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
               <span className="service-icon rounded-circle mx-auto mb-3">
-                <i className="icon-pencil"></i>
+                <i className="fas fa-database"></i>
               </span>
               <h4>
-                <strong>Redesigned</strong>
+                <strong>Databases</strong>
               </h4>
-              <p className="text-faded mb-0">
-                Freshly redesigned for Bootstrap 5.
-              </p>
+              <p className="text-faded mb-0">MongoDb & MySQL</p>
             </div>
             <div className="col-lg-3 col-md-6 mb-5 mb-md-0">
               <span className="service-icon rounded-circle mx-auto mb-3">
-                <i className="icon-like"></i>
+                <i className="fas fa-node-js"></i>
               </span>
               <h4>
-                <strong>Favorited</strong>
+                <strong>Backend</strong>
               </h4>
-              <p className="text-faded mb-0">
-                Millions of users
-                <i className="fas fa-heart"></i>
-                Start Bootstrap!
-              </p>
+              <p className="text-faded mb-0">Full Stack Integration</p>
             </div>
             <div className="col-lg-3 col-md-6">
               <span className="service-icon rounded-circle mx-auto mb-3">
-                <i className="icon-mustache"></i>
+                <i className="fas fa-cloud"></i>
               </span>
               <h4>
-                <strong>Question</strong>
+                <strong>Cloud Services</strong>
               </h4>
-              <p className="text-faded mb-0">I mustache you a question...</p>
+              <p className="text-faded mb-0">
+                Applications up and running on the web
+              </p>
             </div>
           </div>
         </div>
