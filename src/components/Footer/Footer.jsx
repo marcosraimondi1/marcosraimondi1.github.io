@@ -11,6 +11,8 @@ export default function Footer() {
               <a
                 className="social-link rounded-circle text-white mr-3"
                 href="mailto:marcosraimondi1@gmail.com?Subject=Something."
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="icon-envelope"></i>
               </a>
@@ -19,6 +21,8 @@ export default function Footer() {
               <a
                 className="social-link rounded-circle text-white mr-3"
                 href="https://www.linkedin.com/in/marcos-raimondi/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="icon-social-linkedin"></i>
               </a>
@@ -27,6 +31,8 @@ export default function Footer() {
               <a
                 className="social-link rounded-circle text-white"
                 href="https://github.com/marcosraimondi1"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="icon-social-github"></i>
               </a>

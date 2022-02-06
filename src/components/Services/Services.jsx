@@ -16,12 +16,12 @@ export default function Services() {
           <div className="row gx-4 gx-lg-5">
             <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
               <span className="service-icon rounded-circle mx-auto mb-3">
-                <i className="fas fa-react"></i>
+                <i className="fab fa-react fa-lg"></i>
               </span>
               <h4>
                 <strong>React</strong>
               </h4>
-              <p className="text-faded mb-0">Web Development wiht React Js</p>
+              <p className="text-faded mb-0">Web Development wiht React.JS</p>
             </div>
             <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
               <span className="service-icon rounded-circle mx-auto mb-3">
@@ -34,7 +34,7 @@ export default function Services() {
             </div>
             <div className="col-lg-3 col-md-6 mb-5 mb-md-0">
               <span className="service-icon rounded-circle mx-auto mb-3">
-                <i className="fas fa-node-js"></i>
+                <i className="fab fa-node fa-lg"></i>
               </span>
               <h4>
                 <strong>Backend</strong>

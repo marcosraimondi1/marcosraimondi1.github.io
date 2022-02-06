@@ -15,6 +15,8 @@ export default function Portfolio() {
               <a
                 className="portfolio-item"
                 href="http://agro-crm-project.herokuapp.com"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <div className="caption">
                   <div className="caption-content">
@@ -37,6 +39,8 @@ export default function Portfolio() {
               <a
                 className="portfolio-item"
                 href="https://turnosyagenda.herokuapp.com"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <div className="caption">
                   <div className="caption-content">
@@ -74,6 +78,8 @@ export default function Portfolio() {
               <a
                 className="portfolio-item"
                 href="https://github.com/marcosraimondi1"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <div className="caption">
                   <div className="caption-content">
