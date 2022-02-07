@@ -40,7 +40,7 @@ export default function Services() {
               <h4>
                 <strong>Databases</strong>
               </h4>
-              <p className="text-faded mb-0">MongoDb & MySQL</p>
+              <p className="text-faded mb-0">MongoDb & SQL</p>
             </div>
             <div className="col-lg-3 col-md-6">
               <span className="service-icon rounded-circle mx-auto mb-3">
