@@ -1,4 +1,5 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useCallToAction } from "./useCallToAction";
 
 export default function CallToAction() {
@@ -15,7 +16,7 @@ export default function CallToAction() {
             Click Me!
           </button>
           <>
-            <i className="fas fa-heart fa-2x love"></i>
+            <FontAwesomeIcon className="love" icon="heart" size="2x" />
             <p style={{ display: "inline" }} className="fa-2x">
               {" "}
               {likes}

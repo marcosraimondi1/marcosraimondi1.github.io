@@ -8,6 +8,7 @@ import Portfolio from "./components/Portfolio/Portfolio.jsx";
 import CallToAction from "./components/CallToAction/CallToAction.jsx";
 import Map from "./components/Map/Map.jsx";
 import Footer from "./components/Footer/Footer.jsx";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
       <Footer />
       {/* <!-- Scroll to Top Button--> */}
       <a className="scroll-to-top rounded" href="#page-top">
-        <i className="fas fa-angle-up"></i>
+        <FontAwesomeIcon icon="angle-up" />
       </a>
       {/*
       <!-- Bootstrap core JS--> */}

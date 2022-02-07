@@ -1,11 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Navigation() {
+  const [open, setOpen] = useState(false);
   return (
     <div>
       {/* <!-- Navigation--> */}
-      <a className="menu-toggle rounded" href="#">
-        <i className="fas fa-bars"></i>
+      <a
+        className="menu-toggle rounded"
+        onClick={() => setOpen((prev) => !prev)}
+        href="#"
+      >
+        {open ? (
+          <FontAwesomeIcon icon="times" />
+        ) : (
+          <FontAwesomeIcon icon="bars" />
+        )}
       </a>
       <nav id="sidebar-wrapper">
         <ul className="sidebar-nav">

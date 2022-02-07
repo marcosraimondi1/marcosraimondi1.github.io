@@ -11841,7 +11841,6 @@ footer.footer .social-link:hover {
   height: 30rem;
 }
 .map iframe {
-  pointer-events: none;
   height: 100%;
   width: 100%;
   border: 0;

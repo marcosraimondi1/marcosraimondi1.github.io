@@ -1,4 +1,5 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Services() {
   return (
@@ -16,34 +17,34 @@ export default function Services() {
           <div className="row gx-4 gx-lg-5">
             <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
               <span className="service-icon rounded-circle mx-auto mb-3">
-                <i className="fab fa-react fa-lg"></i>
+                <FontAwesomeIcon icon={["fab", "react"]} size="lg" spin />
               </span>
               <h4>
                 <strong>React</strong>
               </h4>
               <p className="text-faded mb-0">Web Development wiht React.JS</p>
             </div>
-            <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
-              <span className="service-icon rounded-circle mx-auto mb-3">
-                <i className="fas fa-database"></i>
-              </span>
-              <h4>
-                <strong>Databases</strong>
-              </h4>
-              <p className="text-faded mb-0">MongoDb & MySQL</p>
-            </div>
             <div className="col-lg-3 col-md-6 mb-5 mb-md-0">
               <span className="service-icon rounded-circle mx-auto mb-3">
-                <i className="fab fa-node fa-lg"></i>
+                <FontAwesomeIcon icon={["fab", "node"]} size="lg" />
               </span>
               <h4>
                 <strong>Backend</strong>
               </h4>
               <p className="text-faded mb-0">Full Stack Integration</p>
             </div>
+            <div className="col-lg-3 col-md-6 mb-5 mb-lg-0">
+              <span className="service-icon rounded-circle mx-auto mb-3">
+                <FontAwesomeIcon icon="database" spin />
+              </span>
+              <h4>
+                <strong>Databases</strong>
+              </h4>
+              <p className="text-faded mb-0">MongoDb & MySQL</p>
+            </div>
             <div className="col-lg-3 col-md-6">
               <span className="service-icon rounded-circle mx-auto mb-3">
-                <i className="fas fa-cloud"></i>
+                <FontAwesomeIcon icon="cloud" />
               </span>
               <h4>
                 <strong>Cloud Services</strong>
