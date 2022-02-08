@@ -28,7 +28,7 @@ export default function Portfolio() {
                 </div>
                 <img
                   className="img-fluid"
-                  src="assets/img/agro-project.png"
+                  src="assets/img/agro-project.jpg"
                   alt="..."
                   width="700"
                   height="467"
@@ -91,7 +91,7 @@ export default function Portfolio() {
                 </div>
                 <img
                   className="img-fluid"
-                  src="assets/img/github.png"
+                  src="assets/img/github.jpg"
                   alt="..."
                   width="700"
                   height="467"

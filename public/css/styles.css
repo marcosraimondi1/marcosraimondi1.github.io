@@ -11807,6 +11807,7 @@ html {
     url("../assets/img/bg-cv.jpg");
   background-position: center center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
 }
 .callout h2,
@@ -11866,6 +11867,7 @@ footer.footer .social-link:hover {
     ),
     url("../assets/img/bg-glass.jpg");
   background-position: center center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
 }
