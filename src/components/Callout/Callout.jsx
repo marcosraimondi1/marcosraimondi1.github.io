@@ -1,6 +1,10 @@
-import React from "react";
-
+import React, { useState } from "react";
+import Cv from "./Cv";
 export default function Callout() {
+  const [show, setShow] = useState(false);
+  const toggleShow = () => {
+    setShow((prev) => !prev);
+  };
   return (
     <div>
       {/* <!-- Callout--> */}
@@ -9,9 +13,10 @@ export default function Callout() {
           <h2 className="mx-auto mb-5">
             <em>Curriculum Vitae</em>
           </h2>
-          <a className="btn btn-primary btn-xl" href="#curriculumVitae">
-            Inspect
-          </a>
+          {show ? <Cv /> : <></>}
+          <button className="btn btn-primary btn-xl" onClick={toggleShow}>
+            {show ? "Close" : "Inspect"}
+          </button>
         </div>
       </section>
     </div>
