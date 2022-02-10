@@ -11804,7 +11804,7 @@ html {
       rgba(255, 255, 255, 0.1) 0%,
       rgba(255, 255, 255, 0.1) 100%
     ),
-    url("../assets/img/bg-cv.jpg");
+    url("../assets/img/bg/bg-cv.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -11853,6 +11853,7 @@ footer.footer .social-link:hover {
   }
 }
 .masthead {
+  color: #fff;
   min-height: 30rem;
   position: relative;
   display: table;
@@ -11865,7 +11866,7 @@ footer.footer .social-link:hover {
       rgba(255, 255, 255, 0.1) 0%,
       rgba(255, 255, 255, 0.1) 100%
     ),
-    url("../assets/img/bg-glass.jpg");
+    url("../assets/img/bg/bg-pc.jpg");
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;

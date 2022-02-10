@@ -28,7 +28,7 @@ export default function Portfolio() {
                 </div>
                 <img
                   className="img-fluid"
-                  src="assets/img/agro-project.jpg"
+                  src="assets/img/portfolio/agro-project.jpg"
                   alt="..."
                   width="700"
                   height="467"
@@ -50,7 +50,7 @@ export default function Portfolio() {
                 </div>
                 <img
                   className="img-fluid"
-                  src="assets/img/turnero.jpg"
+                  src="assets/img/portfolio/turnero.jpg"
                   alt="..."
                   width="700"
                   height="467"
@@ -67,7 +67,7 @@ export default function Portfolio() {
                 </div>
                 <img
                   className="img-fluid"
-                  src="assets/img/coming-soon.jpg"
+                  src="assets/img/portfolio/coming-soon.jpg"
                   alt="..."
                   width="700"
                   height="467"
@@ -91,7 +91,7 @@ export default function Portfolio() {
                 </div>
                 <img
                   className="img-fluid"
-                  src="assets/img/github.jpg"
+                  src="assets/img/portfolio/github.jpg"
                   alt="..."
                   width="700"
                   height="467"
