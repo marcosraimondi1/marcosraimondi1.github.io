@@ -11,7 +11,7 @@ export default function Callout() {
     setSpanish((prev) => !prev);
   };
   return (
-    <div>
+    <div id="curriculum">
       {/* <!-- Callout--> */}
       <section className="callout">
         <div className="container px-4 px-lg-5 text-center">

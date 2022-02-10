@@ -32,6 +32,9 @@ export default function Navigation() {
             <a href="#services">Services</a>
           </li>
           <li className="sidebar-nav-item">
+            <a href="#curriculum">Curriculum Vitae</a>
+          </li>
+          <li className="sidebar-nav-item">
             <a href="#portfolio">Portfolio</a>
           </li>
           <li className="sidebar-nav-item">
