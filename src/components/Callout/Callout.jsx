@@ -1,9 +1,14 @@
 import React, { useState } from "react";
 import Cv from "./Cv";
+
 export default function Callout() {
   const [show, setShow] = useState(false);
+  const [spanish, setSpanish] = useState(false);
   const toggleShow = () => {
     setShow((prev) => !prev);
+  };
+  const toggleSpanish = () => {
+    setSpanish((prev) => !prev);
   };
   return (
     <div>
@@ -13,7 +18,20 @@ export default function Callout() {
           <h2 className="mx-auto mb-5">
             <em>Curriculum Vitae</em>
           </h2>
-          {show ? <Cv /> : <></>}
+          {show ? (
+            <>
+              <button
+                style={{ float: "right" }}
+                className="btn btn-primary btn-sm"
+                onClick={toggleSpanish}
+              >
+                {spanish ? "English" : "Español"}
+              </button>
+            </>
+          ) : (
+            <></>
+          )}
+          <Cv show={show} spanish={spanish} />
           <button className="btn btn-primary btn-xl" onClick={toggleShow}>
             {show ? "Close" : "Inspect"}
           </button>
