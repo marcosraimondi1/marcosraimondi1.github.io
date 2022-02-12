@@ -33,7 +33,6 @@
 </div>
 
 
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -71,7 +70,9 @@ This is my project for my online portfolio, a web page built to serve as a prese
 
 Feel free to check out the code and make your own portfolio !
 
+<!--
 <p align="right">(<a href="#top">back to top</a>)</p>
+-->
 
 ### Built With
 
@@ -176,8 +177,9 @@ Don't forget to give the project a star! Thanks again!
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
+<!-- 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
+-->
 
 
 <!-- CONTACT -->
@@ -187,8 +189,9 @@ Marcos Raimondi - [@marcos-raimondi](https://linkedin.com/in/marcos-raimondi) - 
 
 Project Link: [https://github.com/marcosraimondi1/marcosraimondi1.github.io](https://github.com/marcosraimondi1/marcosraimondi1.github.io)
 
+<!--
 <p align="right">(<a href="#top">back to top</a>)</p>
-
+-->
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
