@@ -8,31 +8,28 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+<!-- PROJECT LOGO -->
+<a href="https://marcosraimondi1.github.io" align="left"><img src="public/assets/favicon.ico" alt="Logo" width="40" height="40"></a>
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
-<!-- PROJECT LOGO -->
+
+<!-- PROJECT HEADER -->
+
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Best-README-Template</h3>
-
+  
+  <h1 align="center">My Portfolio</h1>
+  
+  [![Product Name Screen Shot][product-screenshot]](https://marcosraimondi1.github.io)
+  
   <p align="center">
     This is my Online Portfolio
     <br />
-    <a href="https://github.com/marcosraimondi1/marcosraimondi1.github.io"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/marcosraimondi1/marcosraimondi1.github.io"><strong>📒 Explore the docs »</strong></a>
     <br />
-    <br />
-    <a href="https://marcosraimondi1.github.io">Visit Page</a>
+    <a href="https://marcosraimondi1.github.io">🌐 Visit Page</a>
   </p>
 </div>
 
@@ -69,41 +66,23 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+This is my project for my online portfolio, a web page built to serve as a presentation card as well as to show my skills.
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+Feel free to check out the code and make your own portfolio !
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [Next.js](https://nextjs.org/)
 * [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Bootstrap](https://startbootstrap.com)
+* [Canva](https://canva.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
 <!-- GETTING STARTED -->
+<!--
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
@@ -137,9 +116,10 @@ _Below is an example of how you can instruct your audience on installing and set
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
+-->
 
 <!-- USAGE EXAMPLES -->
+<!--
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
@@ -148,9 +128,12 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
+-->
 
 <!-- ROADMAP -->
+
+<!--
+
 ## Roadmap
 
 - [x] Add Changelog
@@ -165,9 +148,11 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
+-->
 
 <!-- CONTRIBUTING -->
+
+<!--
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -183,7 +168,7 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
+-->
 
 <!-- LICENSE -->
 ## License
@@ -197,27 +182,25 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Marcos Raimondi - [@marcos-raimondi](https://linkedin.com/in/marcos-raimondi) - marcosraimondi1@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/marcosraimondi1/marcosraimondi1.github.io](https://github.com/marcosraimondi1/marcosraimondi1.github.io)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
+<!-- 
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
 * [Malven's Grid Cheatsheet](https://grid.malven.co/)
 * [Img Shields](https://shields.io)
+-->
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+* [Stylish Portfolio](https://startbootstrap.com/theme/stylish-portfolio)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -227,4 +210,4 @@ Use this space to list resources you find helpful and would like to give credit 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/marcos-raimondi
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: portfolio.jpg
