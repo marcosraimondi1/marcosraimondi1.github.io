@@ -9,11 +9,10 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 <!-- PROJECT LOGO -->
+<!--
 <a href="https://marcosraimondi1.github.io" align="left"><img src="public/assets/favicon.ico" alt="Logo" width="40" height="40"></a>
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
+-->
 
 <!-- PROJECT HEADER -->
 
