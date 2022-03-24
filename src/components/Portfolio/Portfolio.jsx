@@ -1,4 +1,5 @@
 import React from "react";
+import Item from "./Item/Item.jsx";
 
 export default function Portfolio() {
   return (
@@ -11,93 +12,30 @@ export default function Portfolio() {
             <h2 className="mb-5">Recent Projects</h2>
           </div>
           <div className="row gx-0">
-            <div className="col-lg-6">
-              <a
-                className="portfolio-item"
-                href="http://agro-crm-project.herokuapp.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="caption">
-                  <div className="caption-content">
-                    <div className="h2">Agro CRM</div>
-                    <p className="mb-0">
-                      A Customer Relationship Management app!
-                    </p>
-                  </div>
-                </div>
-                <img
-                  className="img-fluid"
-                  src="assets/img/portfolio/agro-project.jpg"
-                  alt="..."
-                  width="700"
-                  height="467"
-                />
-              </a>
-            </div>
-            <div className="col-lg-6">
-              <a
-                className="portfolio-item"
-                href="https://turnosyagenda.herokuapp.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="caption">
-                  <div className="caption-content">
-                    <div className="h2">Turnero</div>
-                    <p className="mb-0">Booking services made easy!</p>
-                  </div>
-                </div>
-                <img
-                  className="img-fluid"
-                  src="assets/img/portfolio/turnero.jpg"
-                  alt="..."
-                  width="700"
-                  height="467"
-                />
-              </a>
-            </div>
-            <div className="col-lg-6">
-              <a className="portfolio-item" href="">
-                <div className="caption">
-                  <div className="caption-content">
-                    <div className="h2">Coming Soon</div>
-                    <p className="mb-0">In process...</p>
-                  </div>
-                </div>
-                <img
-                  className="img-fluid"
-                  src="assets/img/portfolio/coming-soon.jpg"
-                  alt="..."
-                  width="700"
-                  height="467"
-                />
-              </a>
-            </div>
-            <div className="col-lg-6">
-              <a
-                className="portfolio-item"
-                href="https://github.com/marcosraimondi1"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="caption">
-                  <div className="caption-content">
-                    <div className="h2">GitHub</div>
-                    <p className="mb-0">
-                      Check Out all my projects in my github page!
-                    </p>
-                  </div>
-                </div>
-                <img
-                  className="img-fluid"
-                  src="assets/img/portfolio/github.jpg"
-                  alt="..."
-                  width="700"
-                  height="467"
-                />
-              </a>
-            </div>
+            <Item
+              href="http://agro-crm-project.herokuapp.com"
+              caption_title="Agro CRM"
+              caption_description="A Customer Relationship Management app!"
+              img_source="assets/img/portfolio/agro-project.jpg"
+            />
+            <Item
+              href="https://turnosyagenda.herokuapp.com"
+              caption_title="Turnero"
+              caption_description="Booking services and scheduling an agenda"
+              img_source="assets/img/portfolio/turnero.jpg"
+            />
+            <Item
+              href="http://multiapp.my.to/spotify"
+              caption_title="Spotify Playlist Downloader"
+              caption_description="App to download your spotify playlists"
+              img_source="assets/img/portfolio/spotify.png"
+            />
+            <Item
+              href="http://multiapp.my.to"
+              caption_title="App Platform"
+              caption_description="Check out all my other projects"
+              img_source="assets/img/portfolio/multiapp.png"
+            />
           </div>
         </div>
       </section>
