@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Cv from "./Cv";
+import Cv from "./CV";
 
 export default function Callout() {
   const [show, setShow] = useState(false);
