@@ -13,28 +13,28 @@ export default function Portfolio() {
           </div>
           <div className="row gx-0">
             <Item
-              href="http://agro-crm-project.herokuapp.com"
+              href="https://github.com/marcosraimondi1/AgroCRM"
               caption_title="Agro CRM"
               caption_description="A Customer Relationship Management app!"
               img_source="assets/img/portfolio/agro-project.jpg"
             />
             <Item
-              href="https://turnosyagenda.herokuapp.com"
-              caption_title="Turnero"
-              caption_description="Booking services and scheduling an agenda"
-              img_source="assets/img/portfolio/turnero.jpg"
+              href="http://iotdash.my.to"
+              caption_title="IoT Dash"
+              caption_description="A customizable dashboard for iot devices"
+              img_source="assets/img/portfolio/iotdash.jpg"
             />
             <Item
-              href="http://multiapp.my.to/spotify"
-              caption_title="Spotify Playlist Downloader"
-              caption_description="App to download your spotify playlists"
-              img_source="assets/img/portfolio/spotify.png"
+              href="https://github.com/marcosraimondi1/musicVote"
+              caption_title="Let's DJ"
+              caption_description="A playlist voting system for parties"
+              img_source="assets/img/portfolio/musicVote.jpg"
             />
             <Item
-              href="http://multiapp.my.to"
-              caption_title="App Platform"
-              caption_description="Check out all my other projects"
-              img_source="assets/img/portfolio/multiapp.png"
+              href="https://github.com/marcosraimondi1"
+              caption_title="Github Profile"
+              caption_description="See all my projects at my github profile"
+              img_source="assets/img/portfolio/github.jpg"
             />
           </div>
         </div>
