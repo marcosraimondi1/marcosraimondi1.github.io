@@ -19,7 +19,7 @@ export default function Portfolio() {
               img_source="assets/img/portfolio/agro-project.jpg"
             />
             <Item
-              href="http://iotdash.my.to"
+              href="http://iotdash.my.to:3000"
               caption_title="IoT Dash"
               caption_description="A customizable dashboard for iot devices"
               img_source="assets/img/portfolio/iotdash.jpg"
