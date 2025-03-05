@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 
-export default function Home () {
+export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
@@ -78,7 +78,7 @@ export default function Home () {
             <br />
 
             <div>
-              <h3>IoT Dashboard</h3>
+              <h3>IoT Dashboard</h3><a href="https://github.com/marcosraimondi1/iot_dashboard">Code</a>
               <p>A flexible and customizable web dashboard for visualizing and managing IoT devices.</p>
 
               <br />
@@ -90,6 +90,14 @@ export default function Home () {
               <img style={{ marginRight: '5px' }} src="https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=fff&style=flat" alt="C Badge" />
               <img style={{ marginRight: '5px' }} src="https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=fff&style=flat" alt="Next.js Badge" />
               <img style={{ marginRight: '5px' }} src="https://img.shields.io/badge/Node.js-5FA04E?logo=nodedotjs&logoColor=fff&style=flat" alt="Node.js Badge" />
+
+              <br />
+
+              <img
+                width="100%"
+                src="/projects/iotdash.jpg"
+                alt="Iot project"
+              />
 
             </div>
 
