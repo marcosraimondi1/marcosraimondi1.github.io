@@ -6,7 +6,7 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "npx eslint src/"
   },
   "dependencies": {
     "react": "^19.0.0",
@@ -14,8 +14,9 @@
     "next": "15.2.0"
   },
   "devDependencies": {
-    "eslint": "^9",
+    "eslint": "^8",
     "eslint-config-next": "15.2.0",
-    "@eslint/eslintrc": "^3"
+    "@eslint/eslintrc": "^3",
+    "eslint-config-standard": "^17.1.0"
   }
 }
