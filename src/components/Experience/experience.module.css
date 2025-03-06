@@ -1,0 +1,28 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  list-style-type: none;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  border-left: 4px solid rgb(0,0,0, 0.7);
+  padding-left: 1rem;
+}
+
+.date {
+  font-size: 85%;
+  opacity: 0.75;
+}
+
+@media (prefers-color-scheme: dark) {
+  .item {
+    border-left: 4px solid rgb(255,255,255, 0.7);
+  }
+}

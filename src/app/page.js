@@ -2,13 +2,13 @@ import AboutMe from '@/components/AboutMe'
 import Experience from '@/components/Experience'
 import Hero from '@/components/Hero'
 import Projects from '@/components/Projects'
-import SectionContainer from '@/components/SectionContainer'
-import SectionTitle from '@/components/SectionTitle'
+import SectionContainer from '@/components/Section/SectionContainer'
+import SectionTitle from '@/components/Section/SectionTitle'
 import Skills from '@/components/Skills'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import CodeIcon from '@/components/icons/CodeIcon'
-import PortfolioIcon from '@/components/icons/PortfolioIcon'
+import PathIcon from '@/components/icons/PathIcon'
 
 import styles from './page.module.css'
 
@@ -33,10 +33,10 @@ export default function Home () {
           <Projects />
         </SectionContainer>
 
-        <SectionContainer id="experience">
+        <SectionContainer id="journey">
           <SectionTitle>
-            <PortfolioIcon height={36} />
-            Experience</SectionTitle>
+            <PathIcon height={36} />
+            Journey</SectionTitle>
           <Experience />
         </SectionContainer>
 

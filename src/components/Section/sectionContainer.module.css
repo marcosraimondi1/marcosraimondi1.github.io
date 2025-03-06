@@ -1,0 +1,15 @@
+.section {
+  width: 80%;
+  max-width: 900px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+@media (max-width: 768px) {
+  body {
+    width: 90%;
+  }
+}
