@@ -1,0 +1,29 @@
+.hero {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 3rem;
+	width: 100%;
+	text-align: center;
+	text-wrap: pretty;
+}
+
+.list {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	list-style-type: none;
+	padding-top: 1rem;
+	gap: 2rem;
+}
+
+.links {
+	text-decoration: none;
+	opacity: 0.7;
+	padding-top: 1rem;
+}
+
+.links:hover {
+	opacity: 1;
+}

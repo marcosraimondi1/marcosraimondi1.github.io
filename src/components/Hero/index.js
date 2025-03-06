@@ -3,6 +3,8 @@ import MailIcon from '@/components/icons/MailIcon'
 import GithubIcon from '@/components/icons/GithubIcon'
 import CVIcon from '@/components/icons/CVIcon'
 
+import styles from './hero.module.css'
+
 const links = [
   { url: 'https://linkedin.com/in/marcos-raimondi', icon: LinkedinIcon },
   { url: 'https://github.com/marcosraimondi1', icon: GithubIcon },
@@ -12,19 +14,19 @@ const links = [
 
 export default function Hero () {
   return (
-    <div style={styles.hero}>
+    <div className={styles.hero}>
       <p>Hi, I&apos;m</p>
       <h1>Marcos Raimondi.</h1>
       <p>I&apos;m a <b>Computer Engineer</b> and Software Developer.</p>
 
-      <ul style={styles.ul}>
+      <ul className={styles.list}>
         {links.map((item, index) => (
           <li key={index}>
             <a
               target="_blank"
               rel="noopener"
               href={item.url}
-              style={styles.links}
+              className={styles.links}
             >
               <item.icon height={36} />
             </a>
@@ -33,28 +35,4 @@ export default function Hero () {
       </ul>
     </div>
   )
-}
-
-const styles = {
-  hero: {
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
-    paddingTop: '3rem',
-    width: '100%'
-  },
-  ul: {
-    display: 'flex',
-    flexDirection: 'row',
-    justifyContent: 'center',
-    listStyleType: 'none',
-    paddingTop: '1rem',
-    gap: '2rem'
-  },
-  links: {
-    textDecoration: 'none',
-    opacity: 0.75,
-    paddingTop: '1rem'
-  }
 }

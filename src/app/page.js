@@ -10,11 +10,13 @@ import Footer from '@/components/Footer'
 import CodeIcon from '@/components/icons/CodeIcon'
 import PortfolioIcon from '@/components/icons/PortfolioIcon'
 
+import styles from './page.module.css'
+
 export default function Home () {
   return (
     <>
       <Header />
-      <main style={styles.main}>
+      <main className={styles.main}>
         <SectionContainer id="hero">
           <Hero />
         </SectionContainer>
@@ -46,16 +48,4 @@ export default function Home () {
       <Footer />
     </>
   )
-}
-
-const styles = {
-  main: {
-    width: '100%',
-    marginTop: '5rem',
-    padding: '4px',
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center'
-  }
 }
