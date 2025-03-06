@@ -5,11 +5,6 @@
 name: Deploy Next.js site to Pages
 
 on:
-  # Runs on pull requests to main
-  pull_request:
-    branches: ["main"]
-    types: ["closed"]
-
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 

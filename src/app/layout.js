@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata = {
-  title: 'Marcos Raimondi',
-  description: 'Computer Engineer and Software Developer'
+  title: 'Marcos Raimondi Portfolio - Computer Engineer and Software Developer',
+  description: 'Computer Engineer and Software Developer shipped directly from Argentina'
 }
 
 export default function RootLayout ({ children }) {
