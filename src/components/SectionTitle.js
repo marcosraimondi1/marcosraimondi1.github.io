@@ -9,7 +9,10 @@ export default function SectionTitle ({ children }) {
 const styles = {
   h2: {
     alignSelf: 'flex-start',
-    marginTop: '2rem',
-    marginBottom: '0.75rem'
+    marginTop: '2.75rem',
+    marginBottom: '0.75rem',
+    display: 'flex',
+    justifyContent: 'center',
+    gap: '8px'
   }
 }

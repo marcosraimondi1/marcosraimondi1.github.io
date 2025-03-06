@@ -40,7 +40,7 @@ const styles = {
     justifyContent: 'center',
     alignItems: 'center',
     opacity: 0.75,
-    padding: '1rem'
+    padding: '2rem 0'
   },
   ul: {
     display: 'flex',
