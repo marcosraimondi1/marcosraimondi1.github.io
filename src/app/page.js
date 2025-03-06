@@ -7,6 +7,8 @@ import SectionTitle from '@/components/SectionTitle'
 import Skills from '@/components/Skills'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import CodeIcon from '@/components/icons/CodeIcon'
+import PortfolioIcon from '@/components/icons/PortfolioIcon'
 
 export default function Home () {
   return (
@@ -23,12 +25,16 @@ export default function Home () {
         </SectionContainer>
 
         <SectionContainer id="my-projects">
-          <SectionTitle>My Projects</SectionTitle>
+          <SectionTitle>
+            <CodeIcon height={36} />
+            My Projects</SectionTitle>
           <Projects />
         </SectionContainer>
 
         <SectionContainer id="experience">
-          <SectionTitle>Experience</SectionTitle>
+          <SectionTitle>
+            <PortfolioIcon height={36} />
+            Experience</SectionTitle>
           <Experience />
         </SectionContainer>
 

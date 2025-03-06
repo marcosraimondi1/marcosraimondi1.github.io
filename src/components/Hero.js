@@ -49,12 +49,12 @@ const styles = {
     flexDirection: 'row',
     justifyContent: 'center',
     listStyleType: 'none',
-    paddingTop: '0.5rem'
+    paddingTop: '1rem',
+    gap: '2rem'
   },
   links: {
     textDecoration: 'none',
     opacity: 0.75,
-    paddingTop: '1rem',
-    margin: '1rem'
+    paddingTop: '1rem'
   }
 }
