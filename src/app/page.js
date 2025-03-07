@@ -36,7 +36,7 @@ export default function Home () {
         <SectionContainer id="journey">
           <SectionTitle>
             <PathIcon height={36} />
-            Journey</SectionTitle>
+            My Journey</SectionTitle>
           <Experience />
         </SectionContainer>
 

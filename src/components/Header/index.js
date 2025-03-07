@@ -4,7 +4,7 @@ const navItems = [
   { title: 'Home', label: 'home', url: '/#' },
   { title: 'About', label: 'about-me', url: '/#about-me' },
   { title: 'Projects', label: 'my-projects', url: '/#my-projects' },
-  { title: 'Journey', label: 'journey', url: '/#journey' },
+  { title: 'My Journey', label: 'journey', url: '/#journey' },
   { title: 'Skills', label: 'skills', url: '/#skills' }
 ]
 
