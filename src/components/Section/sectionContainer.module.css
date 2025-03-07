@@ -9,7 +9,7 @@
 }
 
 @media (max-width: 768px) {
-  body {
+  .section {
     width: 90%;
   }
 }
