@@ -8,7 +8,7 @@ const experience = [
   },
   {
     title: 'Undergraduate Scholar in Digital Design and Digital Communications',
-    company: 'Funacion Fulgor',
+    company: 'Fundacion Fulgor',
     date: '2022-2024'
   }
 ]

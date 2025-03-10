@@ -1,13 +1,17 @@
-import * as Badges from '@/components/badges'
+import { BADGES, Badge } from '../badges'
 
 import styles from './skills.module.css'
 
 export default function Skills () {
   return (
     <div className={styles.tagList}>
-      {Object.values(Badges).map((Badge, index) => (
-        <Badge key={index} className={styles.tag} />
-      ))}
+      {
+        Object.values(BADGES).map((tag, index) =>
+          <Badge key={index} {...tag} >
+            {tag.icon} {tag.name}
+          </Badge>
+        )
+      }
     </div>
   )
 }
