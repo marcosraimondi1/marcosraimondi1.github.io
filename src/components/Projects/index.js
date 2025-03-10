@@ -1,24 +1,18 @@
 import LinkIcon from '@/components/icons/LinkIcon'
 
 import styles from './projects.module.css'
-import {
-  JavaScriptBadge, NextJSBadge, MongoDBBadge, ReactBadge,
-  DockerBadge, CBadge, NodeJSBadge, MQTTBadge
-} from '@/components/badges'
+import { Badge, BADGES } from '@/components/badges'
 
-const projects = [
-  {
-    title: 'IoT Dashboard',
-    description: 'A flexible and customizable web dashboard for visualizing and managing IoT devices.',
-    tags: [JavaScriptBadge, NextJSBadge, MongoDBBadge, ReactBadge, DockerBadge, CBadge, NodeJSBadge, MQTTBadge],
-    image: '/projects/iotdash.webp',
-    github: 'https://github.com/marcosraimondi1/iot_dashboard'
-  }
-
-]
+const projects = [{
+  title: 'IoT Dashboard',
+  description: 'A flexible and customizable web dashboard for visualizing and managing IoT devices in real-time. Including firmware for embedded device.',
+  image: '/projects/iotdash.webp',
+  github: 'https://github.com/marcosraimondi1/iot_dashboard',
+  badges: [BADGES.javaScript, BADGES.nextjs, BADGES.nodejs, BADGES.cpp, BADGES.docker, BADGES.mongodb, BADGES.zephyrrtos]
+}]
 
 export default function Projects () {
-  return projects.map(({ title, description, tags, image, github }, index) => (
+  return projects.map(({ title, description, badges, image, github }, index) => (
     <article key={index} className={styles.article}>
       <h3>
         <a
@@ -28,18 +22,17 @@ export default function Projects () {
           className={styles.link}
         >
           {title}
-
-          <LinkIcon height={32} />
+          <LinkIcon height={30} />
         </a>
       </h3>
       <p style={{ textWrap: 'pretty' }}>{description}</p>
 
       <div className={styles.tagList}>
         {
-          tags.map((tag, index) => (
-            <span key={index} >
-              {tag({ className: styles.tag })}
-            </span>
+          badges.map((tag, index) => (
+            <Badge key={index} {...tag} >
+              {tag.icon} {tag.name}
+            </Badge>
           ))
         }
       </div>
