@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 import LinkedinIcon from '@/components/icons/LinkedinIcon'
 import MailIcon from '@/components/icons/MailIcon'
 import GithubIcon from '@/components/icons/GithubIcon'
@@ -21,6 +19,8 @@ export default function Hero () {
         <img
           src='/avatar.webp'
           alt='avatar'
+          height={80}
+          width={80}
           className={styles.avatar}
         />
         <p>Hi, I&apos;m</p>
