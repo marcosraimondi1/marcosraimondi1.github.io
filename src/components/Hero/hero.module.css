@@ -9,21 +9,57 @@
 	text-wrap: pretty;
 }
 
+.hero b {
+	color: var(--secondary);
+}
+
+.avatarContainer {
+	display: flex;
+	flex-direction: row;
+	justify-items: center; 
+	gap: 20px;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.avatar {
+	height: 80; 
+	width: 80; 
+	border-radius: 100%; 
+	background-color: #673ab7;
+}
+
 .list {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	list-style-type: none;
+	flex-wrap: wrap;
 	padding-top: 1rem;
-	gap: 2rem;
+	gap: 1rem 1rem;
 }
 
 .links {
 	text-decoration: none;
 	opacity: 0.7;
-	padding-top: 1rem;
+	padding: 2px 10px;
+	background-color: var(--foreground);
+	color: var(--background);
+	border-radius: 10px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	font-size: 14px;
 }
 
 .links:hover {
 	opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .links p {
+    display: none;
+  }
 }

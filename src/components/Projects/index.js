@@ -8,7 +8,15 @@ const projects = [{
   description: 'A flexible and customizable web dashboard for visualizing and managing IoT devices in real-time. Including firmware for embedded device.',
   image: '/projects/iotdash.webp',
   github: 'https://github.com/marcosraimondi1/iot_dashboard',
-  badges: [BADGES.javaScript, BADGES.nextjs, BADGES.nodejs, BADGES.cpp, BADGES.docker, BADGES.mongodb, BADGES.zephyrrtos]
+  badges: [
+    BADGES.languages.javaScript,
+    BADGES.frameworks.nodejs,
+    BADGES.languages.cpp,
+    BADGES.frameworks.nextjs,
+    BADGES.tools.docker,
+    BADGES.databases.mongodb,
+    BADGES.frameworks.zephyrrtos
+  ]
 }]
 
 export default function Projects () {
