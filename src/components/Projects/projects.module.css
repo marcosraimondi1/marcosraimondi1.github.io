@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: flex-start;
   text-wrap: pretty;
+  margin: 20px 0px;
 }
 
 .link {
@@ -32,7 +33,15 @@
   max-width: 768px;
   border-radius: 15px;
   height: auto;
-  margin: 10px 0;
+  margin: 20px 0;
+  transition-duration: .25s;
+}
+
+.image:hover {
+  --scale-x: 1.05;
+  --scale-y: 1.05;
+  transform: scaleX(var(--scale-x)) scaleY(var(--scale-y));
+  border: solid 2px var(--secondary);
 }
 
 .tag {
